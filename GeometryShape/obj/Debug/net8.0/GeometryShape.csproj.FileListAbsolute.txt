@@ -1,0 +1,11 @@
+C:\Users\st310-07\Downloads\Testing_Prakt4\GeometryShape\bin\Debug\net8.0\GeometryShape.deps.json
+C:\Users\st310-07\Downloads\Testing_Prakt4\GeometryShape\bin\Debug\net8.0\GeometryShape.dll
+C:\Users\st310-07\Downloads\Testing_Prakt4\GeometryShape\bin\Debug\net8.0\GeometryShape.pdb
+C:\Users\st310-07\Downloads\Testing_Prakt4\GeometryShape\obj\Debug\net8.0\GeometryShape.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\st310-07\Downloads\Testing_Prakt4\GeometryShape\obj\Debug\net8.0\GeometryShape.AssemblyInfoInputs.cache
+C:\Users\st310-07\Downloads\Testing_Prakt4\GeometryShape\obj\Debug\net8.0\GeometryShape.AssemblyInfo.cs
+C:\Users\st310-07\Downloads\Testing_Prakt4\GeometryShape\obj\Debug\net8.0\GeometryShape.csproj.CoreCompileInputs.cache
+C:\Users\st310-07\Downloads\Testing_Prakt4\GeometryShape\obj\Debug\net8.0\GeometryShape.dll
+C:\Users\st310-07\Downloads\Testing_Prakt4\GeometryShape\obj\Debug\net8.0\refint\GeometryShape.dll
+C:\Users\st310-07\Downloads\Testing_Prakt4\GeometryShape\obj\Debug\net8.0\GeometryShape.pdb
+C:\Users\st310-07\Downloads\Testing_Prakt4\GeometryShape\obj\Debug\net8.0\ref\GeometryShape.dll
