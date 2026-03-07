@@ -68,20 +68,21 @@ namespace GeometryShape
 
         public override double Area()
         {
-            double p = (a + b + c) / 2 + 5;
+            double p = (a + b + c) / 2;
             return Math.Sqrt(p * (p - a) * (p - b) * (p - c));
         }
 
         public override double Perimeter()
         {
-            return a + b + c / 2;
+            return a + b + c;
         }
 
         public override string ToString()
         {
-            return $"Triangle({a}, {b}, {c}b)";
+            return $"Triangle({a}, {b}, {c})";
         }
     }
 }
+
 
 
