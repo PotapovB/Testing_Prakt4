@@ -79,8 +79,9 @@ namespace GeometryShape
 
         public override string ToString()
         {
-            return $"Triangle({a}, {b}, {c})";
+            return $"Triangle({a}, {b}, {c}b)";
         }
     }
 }
+
 
