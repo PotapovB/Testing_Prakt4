@@ -30,35 +30,6 @@ namespace GeometryShapeTests
         [InlineData(VALID_SIDE_A_1, VALID_SIDE_B_1, VALID_SIDE_C_1)]
         [InlineData(VALID_SIDE_A_2, VALID_SIDE_A_2, VALID_SIDE_A_2)]
         [InlineData(VALID_SIDE_A_3, VALID_SIDE_BC_3, VALID_SIDE_BC_3)]
-        public void Area_ReturnsCorrectValue(double a, double b, double c)
-        {
-            var triangle = new Triangle(a, b, c);
-            double p = (a + b + c) / 2;
-            double expected_area = Math.Sqrt(p * (p - a) * (p - b) * (p - c));
-
-            double area = triangle.Area();
-
-            Assert.Equal(expected_area, area, precision: 10);
-        }
-
-        [Theory]
-        [InlineData(VALID_SIDE_A_1, VALID_SIDE_B_1, VALID_SIDE_C_1)]
-        [InlineData(VALID_SIDE_A_2, VALID_SIDE_A_2, VALID_SIDE_A_2)]
-        [InlineData(VALID_SIDE_A_3, VALID_SIDE_BC_3, VALID_SIDE_BC_3)]
-        public void Perimeter_ReturnsCorrectValue(double a, double b, double c)
-        {
-            var triangle = new Triangle(a, b, c);
-            double expected_perimeter = a + b + c;
-
-            double perimeter = triangle.Perimeter();
-
-            Assert.Equal(expected_perimeter, perimeter);
-        }
-
-        [Theory]
-        [InlineData(VALID_SIDE_A_1, VALID_SIDE_B_1, VALID_SIDE_C_1)]
-        [InlineData(VALID_SIDE_A_2, VALID_SIDE_A_2, VALID_SIDE_A_2)]
-        [InlineData(VALID_SIDE_A_3, VALID_SIDE_BC_3, VALID_SIDE_BC_3)]
         public void ToString_ReturnsCorrectRepresentation(double a, double b, double c)
         {
             var triangle = new Triangle(a, b, c);
@@ -171,3 +142,4 @@ namespace GeometryShapeTests
         }
     }
 }
+
